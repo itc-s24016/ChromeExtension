@@ -1,1 +1,1 @@
-window.alert('Hello My Extension!');
+window.alert('Welcome to my Qiita!');

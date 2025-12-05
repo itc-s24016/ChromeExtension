@@ -1,10 +1,10 @@
 {
   "name": "MyExtension",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "manifest_version": 3,
-  "description": "これは拡張機能「MyExtension」の詳細画面にアクセスするとアラートが出るだけの拡張機能です。",
+  "description": "これは私のQiitaプロフィールにアクセスするとアラートが出るだけの拡張機能です。",
   "content_scripts": [{
-    "matches": ["chrome://extensions/?id=kiffogbpjnddplemhpiajnciechflbje"],
+    "matches": ["https://qiita.com/s24016"],
     "js": [
       "content.js"
     ]
