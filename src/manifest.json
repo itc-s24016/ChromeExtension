@@ -1,10 +1,10 @@
 {
   "name": "MyExtension",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "manifest_version": 3,
-  "description": "Sample Chrome Extension",
+  "description": "これは拡張機能「MyExtension」の詳細画面にアクセスするとアラートが出るだけの拡張機能です。",
   "content_scripts": [{
-    "matches": ["https://github.com/*"],
+    "matches": ["chrome://extensions/?id=kiffogbpjnddplemhpiajnciechflbje"],
     "js": [
       "content.js"
     ]

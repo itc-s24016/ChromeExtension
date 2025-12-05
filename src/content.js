@@ -1,1 +1,1 @@
-window.alert('Hello GitHub');
+window.alert('Hello My Extension!');
